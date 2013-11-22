@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Skywire_CreditMemoAPI>
+            <version>0.0.1</version>
+            <depends>
+                <Mage_Sales_Order />
+            </depends>
+        </Skywire_CreditMemoAPI>
+    </modules>
+    <global>
+        <models>
+            <creditmemoapi>
+                <rewrite>
+                    <order_creditmemo_api>Skywire_CreditMemoAPI_Model_Order_CreditMemo_Api</order_creditmemo_api>
+                </rewrite>
+            </creditmemoapi>
+        </models>
+    </global>
+</config>

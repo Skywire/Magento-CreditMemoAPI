@@ -1,4 +1,14 @@
 Magento-CreditMemoAPI
 =====================
 
-Extension of the core Mage_Sales_Model_Api_Resource to add missing functionality such as create to Credit Memos
+# Skywire CreditMemoAPI #
+
+Written to extend the core SOAP Credit Memo API which was missing the ability to create Credit Memos using the API
+
+## Magento Compatibility ##
+
+*   1.10 Producrtion
+
+## Version History ##
+
+*   0.1.0 - Initial Commit [ATJ]
